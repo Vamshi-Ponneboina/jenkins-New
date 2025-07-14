@@ -38,10 +38,8 @@
                         <environment>Sandbox</environment>
                         <target>Cloudhub-US-East-2</target>
                         <!-- <server>Repository</server> -->
-      <connectedApp>
-        <clientId>${anypoint.connectedApp.clientId}</clientId>
-        <clientSecret>${anypoint.connectedApp.clientSecret}</clientSecret>
-      </connectedApp>
+		        <username>${CLIENT_ID}</username>
+      			<password>${CLIENT_SECRET}</password>
                         <applicationName>${project.artifactId}</applicationName>
                         <replicas>1</replicas>
                         <vCores>0.1</vCores>
